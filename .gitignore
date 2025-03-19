@@ -1,0 +1,18 @@
+*.txt
+
+# Compiled binaries
+*.exe
+*.dll
+
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+backend/vendor/
+
+# System files
+.DS_Store
+
+# Environment variables
+.env
