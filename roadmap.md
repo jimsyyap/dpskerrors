@@ -3,7 +3,7 @@ Here’s a streamlined **MVP Roadmap** with file/folder structure, prioritized f
 ---
 
 ### **MVP Roadmap**  
--[x] **Phase 1: Project Setup & Database (1-2 Days)**  
+- [x] **Phase 1: Project Setup & Database (1-2 Days)**  
 **Tasks**  
 1. Initialize Go (Gin) + React projects.  
 2. Set up PostgreSQL locally with GORM.  
@@ -19,8 +19,8 @@ Here’s a streamlined **MVP Roadmap** with file/folder structure, prioritized f
 ### **Phase 2: Backend Core Features (3-5 Days)**  
 **Priority Endpoints**  
 1. **Auth**:  
-   -[x] `POST /register`, -
-   -[x] `POST /login` (JWT).  
+   - [x] `POST /register`, -
+   - [x] `POST /login` (JWT).  
 2. **Sessions**:  
    - `POST /sessions` (start), `PUT /sessions/{id}` (end).  
 3. **Errors**:  
