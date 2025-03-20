@@ -20,7 +20,7 @@ Here’s a streamlined **MVP Roadmap** with file/folder structure, prioritized f
 **Priority Endpoints**  
 1. **Auth**:  
    -[x] `POST /register`, -
-   - `POST /login` (JWT).  
+   -[x] `POST /login` (JWT).  
 2. **Sessions**:  
    - `POST /sessions` (start), `PUT /sessions/{id}` (end).  
 3. **Errors**:  
@@ -30,25 +30,22 @@ Here’s a streamlined **MVP Roadmap** with file/folder structure, prioritized f
 
 **File Structure**  
 ```
-backend/
-├── cmd/
-│   └── main.go               # Entry point
-├── internal/
-│   ├── handlers/             # API logic
-│   │   ├── auth.go
-│   │   ├── sessions.go
-│   │   └── errors.go
-│   ├── middleware/
-│   │   └── auth.go           # JWT validation
-│   └── models/               # GORM models
-│       └── models.go
-├── config/
-│   ├── database.go           # DB connection
-│   └── env.go                # .env parsing
-├── migrations/               # SQL scripts
-└── go.mod
+backend
+├── cmd
+│   └── main.go
+├── go.mod
+├── go.sum
+├── internal
+│   ├── database.go
+│   ├── handlers
+│   │   ├── auth.go
+│   │   └── sessions.go
+│   ├── middleware
+│   │   └── auth.go
+│   └── models
+│       └── models.go
+└── migrations
 ```
-
 ---
 
 ### **Phase 3: Frontend Core Features (5-7 Days)**  
